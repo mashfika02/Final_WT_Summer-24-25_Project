@@ -148,6 +148,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         placeholder="Enter phone number"><br>
                     <span class="field-error"><?php echo $phoneErr; ?></span>
 
+
+                    <label for="address">Address : </label><br>
+                    <input class="input" type="text" name="address" value="<?php echo htmlspecialchars($address); ?>"
+                        placeholder="Enter Address"> <br>
+                    <span class="field-error"><?php echo $addressErr; ?></span>
+
+
                     <label for="name">Username : </label><br>
                     <input class="input" type="text" name="username" value="<?php echo htmlspecialchars($username); ?>"
                         placeholder="Enter Username"><br>
@@ -177,11 +184,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         placeholder="Enter Salary"><br>
                     <span class="field-error"><?php echo $salaryErr; ?></span>
 
-                    <label for="address">Address : </label><br>
-                    <input class="input" type="text" name="address" value="<?php echo htmlspecialchars($address); ?>"
-                        placeholder="Enter Address"> <br>
-                    <span class="field-error"><?php echo $addressErr; ?></span>
-
                     <label for="text">Gender : </label> <br>
                     <input class="radio" type="radio" name="gender" value="Female" <?php echo $gender === 'Female' ? 'checked' : ''; ?>> <span>Female</span>
                     <input class="radio" type="radio" name="gender" value="Male" <?php echo $gender === 'Male' ? 'checked' : ''; ?>> <span>Male</span> <br>
@@ -189,7 +191,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
             </div>
             <button class="button" type="submit">Add Teacher</button>
-            <button class="button1"><a href="../View/Principal_Dashboard.html">Back to Home</a></button>
+            <button class="button1"><a href="../html/Principal_Dashboard.html">Back to Home</a></button>
             <?php if ($success): ?>
                 <div style="color:green; text-align:center; margin-top:10px"><?php echo $success; ?></div>
             <?php endif; ?>
