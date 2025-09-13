@@ -1,13 +1,4 @@
-.open-sans-normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "width" 100;
-}
-
 * {
-
     margin: 0;
     padding: 0;
 }
@@ -37,6 +28,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
 
 }
 
@@ -65,7 +57,6 @@ span {
 
 .field-error {
     color: #e53935;
-    /* red */
     font-size: 13px;
     margin-top: 4px;
     display: block;
@@ -74,14 +65,13 @@ span {
 
 .radio {
     margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .button {
     margin: 20px auto;
     display: block;
-    /* margin: 20px; */
     padding: 8px 14px;
     border: none;
     border-radius: 5px;
@@ -99,7 +89,6 @@ span {
 .button1 {
     margin: 20px auto;
     display: block;
-    /* margin: 20px; */
     padding: 8px 14px;
     border: none;
     border-radius: 5px;
@@ -118,3 +107,4 @@ span {
 .button1:hover {
     background: #6A3D8F;
 }
+

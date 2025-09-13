@@ -110,7 +110,8 @@
         }
 
         if (empty($errors)) {
-            include 'config.php';
+
+            include '../php/db_connect.php';
 
             $account_type = 'Student';
 
