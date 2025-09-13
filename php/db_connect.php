@@ -1,5 +1,4 @@
 <?php
-// Update these settings to match your XAMPP/MySQL setup
 $DB_HOST = 'localhost';
 $DB_USER = 'root';
 $DB_PASS = '';
