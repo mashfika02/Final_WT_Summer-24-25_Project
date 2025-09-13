@@ -68,7 +68,7 @@ header {
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
-  transition: background 0.3s ease;
+  transition: 0.3s;
 }
 
 .btn:hover {
